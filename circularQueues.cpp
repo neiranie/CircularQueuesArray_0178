@@ -28,19 +28,19 @@ public:
         // 1. Cek apakah antrian penuh
         if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
         {
-            cout << "\nQueue overflow\n"; //1.a
+            cout << "\nQueue overflow\n"; // 1.a
             return; // 1.b
         }
         
         // 2. Cek apakah antrian kosong
         if (FRONT == -1)
         {
-            FRONT = 0; //2.a 
-            REAR = 0;
+            FRONT = 0; // 2.a 
+            REAR = 0; // 2.b
         }
         else
         {
-            
+
         }
     }
 }
